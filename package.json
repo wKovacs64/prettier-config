@@ -2,17 +2,22 @@
   "name": "@wkovacs64/prettier-config",
   "version": "0.0.0-semantically-released",
   "description": "@wKovacs64 Prettier config",
-  "main": "index.js",
-  "files": [
-    "lib",
-    "scripts",
-    "index.js"
+  "keywords": [
+    "prettier",
+    "prettierconfig",
+    "wkovacs64"
   ],
   "author": {
     "name": "Justin Hall",
     "email": "justin.r.hall@gmail.com"
   },
   "license": "MIT",
+  "main": "index.js",
+  "files": [
+    "lib",
+    "scripts",
+    "index.js"
+  ],
   "homepage": "https://github.com/wKovacs64/prettier-config#readme",
   "repository": {
     "type": "git",
