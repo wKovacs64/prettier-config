@@ -4,6 +4,8 @@
   "description": "@wKovacs64 Prettier config",
   "main": "index.js",
   "files": [
+    "lib",
+    "scripts",
     "index.js"
   ],
   "author": {
@@ -23,6 +25,7 @@
     "cm": "git-cz",
     "format": "prettier --write \"**/*.{js,ts,tsx,html,json,md,yml,yaml}\"",
     "lint": "eslint --ext \".js,.ts,.tsx\" .",
+    "postinstall": "node ./scripts/postinstall.js",
     "validate": "npm-run-all --silent --parallel lint"
   },
   "config": {
@@ -37,7 +40,9 @@
   "engines": {
     "node": ">= 8.9.0"
   },
-  "dependencies": {},
+  "dependencies": {
+    "cpy": "7.3.0"
+  },
   "devDependencies": {
     "@commitlint/cli": "8.0.0",
     "@commitlint/config-conventional": "8.0.0",

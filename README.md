@@ -5,12 +5,17 @@ This is my personal Prettier configuration.
 ### Install
 
 ```
-yarn add --dev @wkovacs64/prettier-config
+yarn add --dev prettier @wkovacs64/prettier-config
 ```
 
 ### Usage
 
-Extend in your `prettier.config.js`:
+Installing this package will attempt to copy a default `prettier.config.js` and
+`.prettierignore` into your project if they do not already exist.
+
+They look like this:
+
+#### `prettier.config.js`
 
 ```js
 module.exports = {
@@ -18,14 +23,7 @@ module.exports = {
 };
 ```
 
-Or, add directly to `package.json`:
-
-```json
-"prettier": "@wkovacs64/prettier-config",
-```
-
-You probably also want to create a `.prettierignore` with at least the following
-in it:
+#### `.prettierignore`
 
 ```
 package.json
