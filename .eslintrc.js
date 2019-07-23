@@ -1,3 +1,3 @@
 module.exports = {
-  extends: ['@wkovacs64/eslint-config'],
+  extends: ['plugin:wkovacs64/base', 'plugin:wkovacs64/jest', 'prettier'],
 };
