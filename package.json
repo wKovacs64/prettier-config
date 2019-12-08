@@ -46,7 +46,7 @@
     "node": ">= 8.9.0"
   },
   "dependencies": {
-    "cpy": "7.3.0"
+    "cpy": "8.0.0"
   },
   "devDependencies": {
     "@commitlint/cli": "8.2.0",
