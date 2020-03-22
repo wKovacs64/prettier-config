@@ -2,9 +2,9 @@ module.exports = {
   $schema: 'http://json.schemastore.org/prettierrc',
 
   // defaults
-  arrowParens: 'avoid',
+  arrowParens: 'always',
   bracketSpacing: true,
-  endOfLine: 'auto',
+  endOfLine: 'lf',
   jsxBracketSameLine: false,
   jsxSingleQuote: false,
   htmlWhitespaceSensitivity: 'css',
