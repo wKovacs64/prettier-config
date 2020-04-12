@@ -1,6 +1,6 @@
 # @wkovacs64/prettier-config
 
-This is my personal Prettier configuration.
+This is my personal [Prettier][prettier] configuration.
 
 [![npm Version][npm-image]][npm-url] [![Build Status][ci-image]][ci-url]
 [![semantic-release][semantic-release-image]][semantic-release-url]
@@ -13,10 +13,9 @@ yarn add --dev prettier @wkovacs64/prettier-config
 
 ### Usage
 
-Installing this package will attempt to copy a default `prettier.config.js` and
-`.prettierignore` into your project if they do not already exist.
+Follow the Prettier documentation on [sharing configurations][prettier-sharing].
 
-They look like this:
+### Examples
 
 #### `prettier.config.js`
 
@@ -26,6 +25,7 @@ const prettierConfig = require('@wkovacs64/prettier-config');
 
 module.exports = {
   ...prettierConfig,
+  // overrides here
 };
 ```
 
@@ -44,3 +44,6 @@ package.json
 [semantic-release-image]:
   https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg?style=flat-square
 [semantic-release-url]: https://github.com/semantic-release/semantic-release
+[prettier]: https://prettier.io/
+[prettier-sharing]:
+  https://prettier.io/docs/en/configuration.html#sharing-configurations
