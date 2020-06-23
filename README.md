@@ -20,7 +20,6 @@ Follow the Prettier documentation on [sharing configurations][prettier-sharing].
 #### `prettier.config.js`
 
 ```js
-// eslint-disable-next-line import/no-extraneous-dependencies
 const prettierConfig = require('@wkovacs64/prettier-config');
 
 module.exports = {
