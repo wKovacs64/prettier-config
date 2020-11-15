@@ -33,6 +33,8 @@ workflows:
     jobs:
       - test
       - release:
+          context:
+            - semantic-release
           requires:
             - test
           filters:
