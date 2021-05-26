@@ -34,6 +34,18 @@ module.exports = {
 package.json
 ```
 
+#### `package.json`
+
+```
+{
+  "scripts": {
+    ...
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,html,css,json,md,mdx,yml,yaml}\"",
+    ...
+  }
+}
+```
+
 [npm-image]:
   https://img.shields.io/npm/v/@wkovacs64/prettier-config.svg?style=flat-square
 [npm-url]: https://www.npmjs.com/package/@wkovacs64/prettier-config
