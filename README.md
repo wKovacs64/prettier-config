@@ -8,7 +8,7 @@ This is my personal [Prettier][prettier] configuration.
 ### Install
 
 ```
-yarn add --dev prettier @wkovacs64/prettier-config
+npm install --save-dev prettier @wkovacs64/prettier-config
 ```
 
 ### Usage
@@ -40,7 +40,7 @@ package.json
 {
   "scripts": {
     ...
-    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,html,css,json,md,mdx,yml,yaml}\"",
+    "format": "prettier --write .",
     ...
   }
 }
