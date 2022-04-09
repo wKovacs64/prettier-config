@@ -3,12 +3,12 @@ module.exports = {
 
   // defaults
   arrowParens: 'always',
+  bracketSameLine: false,
   bracketSpacing: true,
   embeddedLanguageFormatting: 'auto',
   endOfLine: 'lf',
   htmlWhitespaceSensitivity: 'css',
   insertPragma: false,
-  jsxBracketSameLine: false,
   jsxSingleQuote: false,
   printWidth: 80,
   quoteProps: 'as-needed',
