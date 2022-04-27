@@ -11,6 +11,7 @@ module.exports = {
   insertPragma: false,
   jsxSingleQuote: false,
   printWidth: 80,
+  proseWrap: 'preserve',
   quoteProps: 'as-needed',
   rangeEnd: Infinity,
   rangeStart: 0,
@@ -21,7 +22,22 @@ module.exports = {
   vueIndentScriptAndStyle: false,
 
   // customized
-  proseWrap: 'always',
   singleQuote: true,
   trailingComma: 'all',
+
+  // workaround for https://github.com/changesets/changesets/issues/774
+  overrides: [
+    {
+      files: ['*.md', '*.mdx'],
+      options: {
+        proseWrap: 'always',
+      },
+    },
+    {
+      files: ['**/.changeset/*.md', 'CHANGELOG.md'],
+      options: {
+        proseWrap: 'never',
+      },
+    },
+  ],
 };
