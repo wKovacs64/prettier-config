@@ -25,7 +25,7 @@
     "url": "https://github.com/wKovacs64/prettier-config/issues"
   },
   "scripts": {
-    "format": "prettier --write .",
+    "format": "prettier --cache --write .",
     "lint": "eslint --ext \".js,.jsx,.ts,.tsx\" .",
     "husky:install": "husky install",
     "prepare": "npm run --silent husky:install"
