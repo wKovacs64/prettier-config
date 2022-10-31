@@ -47,7 +47,7 @@
   },
   "devDependencies": {
     "@changesets/changelog-github": "0.4.7",
-    "@changesets/cli": "2.25.1",
+    "@changesets/cli": "2.25.2",
     "cross-env": "7.0.3",
     "eslint": "7.32.0",
     "eslint-plugin-wkovacs64": "13.17.0",
