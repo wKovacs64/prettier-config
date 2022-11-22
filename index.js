@@ -17,6 +17,7 @@ module.exports = {
   rangeStart: 0,
   requirePragma: false,
   semi: true,
+  singleAttributePerLine: false,
   tabWidth: 2,
   useTabs: false,
   vueIndentScriptAndStyle: false,
