@@ -21,7 +21,6 @@ jobs:
         uses: actions/setup-node@v3
         with:
           cache: npm
-          cache-dependency-path: ./package.json
           node-version-file: '.nvmrc'
 
       - name: 📥 Install deps
@@ -41,7 +40,6 @@ jobs:
         uses: actions/setup-node@v3
         with:
           cache: npm
-          cache-dependency-path: ./package.json
           node-version-file: '.nvmrc'
 
       - name: 📥 Install deps
@@ -63,7 +61,6 @@ jobs:
         uses: actions/setup-node@v3
         with:
           cache: npm
-          cache-dependency-path: ./package.json
           node-version-file: '.nvmrc'
 
       - name: 📥 Install deps
