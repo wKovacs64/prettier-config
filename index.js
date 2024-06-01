@@ -27,6 +27,10 @@ module.exports = {
   singleQuote: true,
   trailingComma: 'all',
 
+  plugins: ['prettier-plugin-tailwindcss'],
+  tailwindAttributes: ['class', 'className', '.*[cC]lassName'],
+  tailwindFunctions: ['clsx', 'cn'],
+
   // workaround for https://github.com/changesets/changesets/issues/774
   overrides: [
     {
