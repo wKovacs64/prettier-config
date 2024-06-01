@@ -1,6 +1,6 @@
 {
   "name": "@wkovacs64/prettier-config",
-  "version": "3.0.3",
+  "version": "4.0.0",
   "description": "@wKovacs64 Prettier config",
   "keywords": [
     "prettier",
@@ -46,7 +46,7 @@
   "engines": {
     "node": ">= 18"
   },
-  "dependencies": {    
+  "dependencies": {
     "prettier-plugin-tailwindcss": "^0.6.1"
   },
   "devDependencies": {
