@@ -20,17 +20,21 @@ Follow the Prettier documentation on [sharing configurations][prettier-sharing].
 #### `prettier.config.js`
 
 ```js
-const prettierConfig = require('@wkovacs64/prettier-config');
+import prettierConfig from '@wkovacs64/prettier-config';
 
-module.exports = {
+/** @type {import("prettier").Options} */
+export const config = {
   ...prettierConfig,
   // overrides here
 };
+
+export default config;
 ```
 
 #### `.prettierignore`
 
 ```
+.changeset
 package.json
 ```
 
@@ -40,7 +44,8 @@ package.json
 {
   "scripts": {
     ...
-    "format": "prettier --write .",
+    "format": "prettier --cache --write .",
+    "format:check": "prettier --cache --check .",
     ...
   }
 }

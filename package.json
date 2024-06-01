@@ -29,6 +29,7 @@
     "changeset:version": "changeset version && npm install --package-lock-only",
     "changeset:publish": "changeset publish",
     "format": "prettier --cache --write .",
+    "format:check": "prettier --cache --check .",
     "lint": "eslint ."
   },
   "private": false,

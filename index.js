@@ -1,3 +1,4 @@
+/** @type {import("prettier").Options} */
 module.exports = {
   $schema: 'http://json.schemastore.org/prettierrc',
 
