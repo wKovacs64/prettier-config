@@ -36,6 +36,7 @@ export default config;
 ```
 .changeset
 package.json
+package-lock.json
 ```
 
 #### `package.json`
