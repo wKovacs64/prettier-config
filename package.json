@@ -12,7 +12,13 @@
     "email": "justin.r.hall@gmail.com"
   },
   "license": "MIT",
+  "type": "module",
   "main": "index.js",
+  "exports": {
+    ".": {
+      "import": "./index.js"
+    }
+  },
   "files": [
     "index.js"
   ],
@@ -33,6 +39,7 @@
     "lint": "eslint ."
   },
   "private": false,
+  "prettier": "./index.js",
   "publishConfig": {
     "access": "public"
   },

@@ -1,5 +1,5 @@
 /** @type {import("prettier").Options} */
-module.exports = {
+export default {
   $schema: 'http://json.schemastore.org/prettierrc',
 
   // defaults
