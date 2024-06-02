@@ -8,14 +8,44 @@ This is my personal [Prettier][prettier] configuration.
 ### Install
 
 ```
-npm install --save-dev prettier @wkovacs64/prettier-config
+npm install --save-dev @wkovacs64/prettier-config
 ```
+
+> Be sure to install the appropriately versioned `prettier` peer dependency as
+> well.
 
 ### Usage
 
 Follow the Prettier documentation on [sharing configurations][prettier-sharing].
 
 ### Examples
+
+#### `package.json`
+
+```
+{
+  "prettier": "@wkovacs64/prettier-config",
+  "scripts": {
+    ...
+    "format": "prettier --cache --write .",
+    "format:check": "prettier --cache --check .",
+    ...
+  }
+}
+```
+
+#### `.prettierignore`
+
+```
+.changeset
+package.json
+package-lock.json
+```
+
+### Customization
+
+If you need to customize the configuration, you can use a dedicated Prettier
+config file instead of the one-liner in package.json:
 
 #### `prettier.config.js`
 
@@ -29,27 +59,6 @@ export const config = {
 };
 
 export default config;
-```
-
-#### `.prettierignore`
-
-```
-.changeset
-package.json
-package-lock.json
-```
-
-#### `package.json`
-
-```
-{
-  "scripts": {
-    ...
-    "format": "prettier --cache --write .",
-    "format:check": "prettier --cache --check .",
-    ...
-  }
-}
 ```
 
 [npm-image]:
