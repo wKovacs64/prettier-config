@@ -1,5 +1,11 @@
 # Change Log
 
+## 4.1.0
+
+### Minor Changes
+
+- [#102](https://github.com/wKovacs64/prettier-config/pull/102) [`da27223`](https://github.com/wKovacs64/prettier-config/commit/da2722355de13cbf1b0a581c65f556d42ae441de) Thanks [@wKovacs64](https://github.com/wKovacs64)! - Increase `printWidth` from 80 to 100. It's time.
+
 ## 4.0.1
 
 ### Patch Changes
