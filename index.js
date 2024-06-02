@@ -11,7 +11,6 @@ export default {
   htmlWhitespaceSensitivity: 'css',
   insertPragma: false,
   jsxSingleQuote: false,
-  printWidth: 80,
   proseWrap: 'preserve',
   quoteProps: 'as-needed',
   rangeEnd: Infinity,
@@ -20,12 +19,13 @@ export default {
   semi: true,
   singleAttributePerLine: false,
   tabWidth: 2,
+  trailingComma: 'all',
   useTabs: false,
   vueIndentScriptAndStyle: false,
 
   // customized
+  printWidth: 100,
   singleQuote: true,
-  trailingComma: 'all',
 
   plugins: ['prettier-plugin-tailwindcss'],
   tailwindAttributes: ['class', 'className', '.*[cC]lassName'],

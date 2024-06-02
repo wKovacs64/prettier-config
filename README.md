@@ -11,8 +11,7 @@ This is my personal [Prettier][prettier] configuration.
 npm install --save-dev @wkovacs64/prettier-config
 ```
 
-> Be sure to install the appropriately versioned `prettier` peer dependency as
-> well.
+> Be sure to install the appropriately versioned `prettier` peer dependency as well.
 
 ### Usage
 
@@ -44,8 +43,8 @@ package-lock.json
 
 ### Customization
 
-If you need to customize the configuration, you can use a dedicated Prettier
-config file instead of the one-liner in package.json:
+If you need to customize the configuration, you can use a dedicated Prettier config file instead of
+the one-liner in package.json:
 
 #### `prettier.config.js`
 
@@ -61,16 +60,12 @@ export const config = {
 export default config;
 ```
 
-[npm-image]:
-  https://img.shields.io/npm/v/@wkovacs64/prettier-config.svg?style=flat-square
+[npm-image]: https://img.shields.io/npm/v/@wkovacs64/prettier-config.svg?style=flat-square
 [npm-url]: https://www.npmjs.com/package/@wkovacs64/prettier-config
 [ci-image]:
   https://img.shields.io/github/actions/workflow/status/wKovacs64/prettier-config/ci.yml?logo=github&style=flat-square
-[ci-url]:
-  https://github.com/wKovacs64/prettier-config/actions?query=workflow%3Aci
-[changesets-image]:
-  https://img.shields.io/badge/maintained%20with-changesets-blue?style=flat-square
+[ci-url]: https://github.com/wKovacs64/prettier-config/actions?query=workflow%3Aci
+[changesets-image]: https://img.shields.io/badge/maintained%20with-changesets-blue?style=flat-square
 [changesets-url]: https://github.com/changesets/changesets
 [prettier]: https://prettier.io/
-[prettier-sharing]:
-  https://prettier.io/docs/en/configuration.html#sharing-configurations
+[prettier-sharing]: https://prettier.io/docs/en/configuration.html#sharing-configurations
