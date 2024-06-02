@@ -1,5 +1,11 @@
 # Change Log
 
+## 4.0.1
+
+### Patch Changes
+
+- [#100](https://github.com/wKovacs64/prettier-config/pull/100) [`03be6be`](https://github.com/wKovacs64/prettier-config/commit/03be6be8e6307511053522a5ad7d0bc5857c9f56) Thanks [@wKovacs64](https://github.com/wKovacs64)! - Flatten module `exports` to provide a better error message if consumed from CJS.
+
 ## 4.0.0
 
 ### Major Changes
