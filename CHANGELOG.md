@@ -1,5 +1,11 @@
 # Change Log
 
+## 4.1.1
+
+### Patch Changes
+
+- [#104](https://github.com/wKovacs64/prettier-config/pull/104) [`89f0883`](https://github.com/wKovacs64/prettier-config/commit/89f08833e63c2e4e5f09cbe600cc408be449673a) Thanks [@wKovacs64](https://github.com/wKovacs64)! - Add `package.json` to package exports.
+
 ## 4.1.0
 
 ### Minor Changes
