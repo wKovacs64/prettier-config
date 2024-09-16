@@ -53,7 +53,7 @@
     "@changesets/cli": "2.27.8",
     "@wkovacs64/eslint-config": "7.2.5",
     "cross-env": "7.0.3",
-    "eslint": "8.57.0",
+    "eslint": "8.57.1",
     "npm-run-all2": "6.2.3",
     "prettier": "3.3.3"
   }
