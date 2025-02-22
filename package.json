@@ -54,6 +54,6 @@
     "@wkovacs64/eslint-config": "7.5.0",
     "cross-env": "7.0.3",
     "eslint": "8.57.1",
-    "prettier": "3.5.1"
+    "prettier": "3.5.2"
   }
 }
