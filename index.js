@@ -27,12 +27,18 @@ export default {
   printWidth: 100,
   singleQuote: true,
 
-  plugins: ['prettier-plugin-tailwindcss'],
+  plugins: ['prettier-plugin-astro', 'prettier-plugin-tailwindcss'],
   tailwindAttributes: ['class', 'className', '.*[cC]lassName'],
   tailwindFunctions: ['clsx', 'cn'],
 
   // workaround for https://github.com/changesets/changesets/issues/774
   overrides: [
+    {
+      files: '*.astro',
+      options: {
+        parser: 'astro',
+      },
+    },
     {
       files: ['*.md', '*.mdx'],
       options: {
