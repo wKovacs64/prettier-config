@@ -1,5 +1,15 @@
 # Change Log
 
+## 4.2.0
+
+### Minor Changes
+
+- [#111](https://github.com/wKovacs64/prettier-config/pull/111) [`a0c0a77`](https://github.com/wKovacs64/prettier-config/commit/a0c0a77b223f49a45c35106f75727b21e6142f2e) Thanks [@wKovacs64](https://github.com/wKovacs64)! - Add `prettier-plugin-astro` for Astro support.
+
+### Patch Changes
+
+- [#112](https://github.com/wKovacs64/prettier-config/pull/112) [`7daf170`](https://github.com/wKovacs64/prettier-config/commit/7daf1707890f0ef2f84510841aef453f2f7e8d6c) Thanks [@wKovacs64](https://github.com/wKovacs64)! - Update `prettier-plugin-tailwindcss` to v0.6.12.
+
 ## 4.1.1
 
 ### Patch Changes
