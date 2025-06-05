@@ -1,5 +1,11 @@
 # Change Log
 
+## 4.2.1
+
+### Patch Changes
+
+- [#115](https://github.com/wKovacs64/prettier-config/pull/115) [`a2ed687`](https://github.com/wKovacs64/prettier-config/commit/a2ed6870e40bad2a3a458da5e80caae7f092990c) Thanks [@wKovacs64](https://github.com/wKovacs64)! - Fix Astro support.
+
 ## 4.2.0
 
 ### Minor Changes
