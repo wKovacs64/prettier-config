@@ -46,14 +46,14 @@
     "node": ">= 18"
   },
   "dependencies": {
-    "prettier-plugin-tailwindcss": "^0.6.1"
+    "prettier-plugin-tailwindcss": "^0.6.12"
   },
   "devDependencies": {
     "@changesets/changelog-github": "0.5.1",
     "@changesets/cli": "2.29.4",
-    "@wkovacs64/eslint-config": "7.6.0",
+    "@wkovacs64/eslint-config": "7.7.0",
     "cross-env": "7.0.3",
-    "eslint": "8.57.1",
+    "eslint": "9.28.0",
     "prettier": "3.5.3",
     "prettier-plugin-astro": "0.14.1"
   }
