@@ -46,6 +46,7 @@
     "node": ">= 18"
   },
   "dependencies": {
+    "prettier-plugin-astro": "^0.14.1",
     "prettier-plugin-tailwindcss": "^0.6.12"
   },
   "devDependencies": {
@@ -54,7 +55,6 @@
     "@wkovacs64/eslint-config": "7.7.0",
     "cross-env": "7.0.3",
     "eslint": "9.28.0",
-    "prettier": "3.5.3",
-    "prettier-plugin-astro": "0.14.1"
+    "prettier": "3.5.3"
   }
 }
