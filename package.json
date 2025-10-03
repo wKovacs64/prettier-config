@@ -46,7 +46,7 @@
   },
   "dependencies": {
     "prettier-plugin-astro": "^0.14.1",
-    "prettier-plugin-tailwindcss": "^0.6.12"
+    "prettier-plugin-tailwindcss": "^0.6.14"
   },
   "devDependencies": {
     "@changesets/changelog-github": "0.5.1",
