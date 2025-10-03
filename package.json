@@ -23,8 +23,7 @@
   ],
   "homepage": "https://github.com/wKovacs64/prettier-config#readme",
   "repository": {
-    "type": "git",
-    "url": "https://github.com/wKovacs64/prettier-config.git"
+    "url": "git+https://github.com/wKovacs64/prettier-config.git"
   },
   "bugs": {
     "url": "https://github.com/wKovacs64/prettier-config/issues"
