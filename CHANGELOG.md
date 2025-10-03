@@ -1,5 +1,11 @@
 # Change Log
 
+## 4.2.2
+
+### Patch Changes
+
+- [#122](https://github.com/wKovacs64/prettier-config/pull/122) [`f92e64d`](https://github.com/wKovacs64/prettier-config/commit/f92e64d1023ce04ecab8b8577af8d7da4544271c) Thanks [@wKovacs64](https://github.com/wKovacs64)! - Update `prettier-plugin-tailwindcss` to v0.6.14.
+
 ## 4.2.1
 
 ### Patch Changes
