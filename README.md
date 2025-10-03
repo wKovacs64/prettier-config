@@ -52,7 +52,7 @@ the one-liner in package.json:
 import prettierConfig from '@wkovacs64/prettier-config';
 
 /** @type {import("prettier").Options} */
-export const config = {
+const config = {
   ...prettierConfig,
   // overrides here
 };
