@@ -36,9 +36,13 @@ Follow the Prettier documentation on [sharing configurations][prettier-sharing].
 #### `.prettierignore`
 
 ```
+# .gitignore and...
+
 .changeset
 package.json
 package-lock.json
+pnpm-lock.yaml
+bun.lock
 ```
 
 ### Customization
