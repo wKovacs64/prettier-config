@@ -1,5 +1,11 @@
 # Change Log
 
+## 4.2.3
+
+### Patch Changes
+
+- [#129](https://github.com/wKovacs64/prettier-config/pull/129) [`f78750e`](https://github.com/wKovacs64/prettier-config/commit/f78750e98a098c421ff8c377579a99c9155f1d20) Thanks [@wKovacs64](https://github.com/wKovacs64)! - Import our dependencies instead of relying on magic string resolution to enable compatibility with non-hoisting package managers like pnpm.
+
 ## 4.2.2
 
 ### Patch Changes
