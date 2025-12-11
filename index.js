@@ -1,3 +1,6 @@
+import * as astroPlugin from 'prettier-plugin-astro';
+import * as tailwindPlugin from 'prettier-plugin-tailwindcss';
+
 /** @type {import("prettier").Options} */
 export default {
   $schema: 'http://json.schemastore.org/prettierrc',
@@ -27,7 +30,7 @@ export default {
   printWidth: 100,
   singleQuote: true,
 
-  plugins: ['prettier-plugin-astro', 'prettier-plugin-tailwindcss'],
+  plugins: [astroPlugin, tailwindPlugin],
   tailwindAttributes: ['class', 'className', '.*[cC]lassName'],
   tailwindFunctions: ['clsx', 'cn'],
 
