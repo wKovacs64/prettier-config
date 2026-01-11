@@ -1,5 +1,13 @@
 # Change Log
 
+## 4.2.4
+
+### Patch Changes
+
+- [#135](https://github.com/wKovacs64/prettier-config/pull/135) [`1d16de7`](https://github.com/wKovacs64/prettier-config/commit/1d16de74a393f143616153d39b01683577d70e08) Thanks [@wKovacs64](https://github.com/wKovacs64)! - Update `prettier-plugin-tailwindcss` to v0.7.2.
+
+- [#133](https://github.com/wKovacs64/prettier-config/pull/133) [`65133db`](https://github.com/wKovacs64/prettier-config/commit/65133dbc2ee0b2def66fbb2efcb5d28f646e6b2e) Thanks [@wKovacs64](https://github.com/wKovacs64)! - Fix usage in the VSCode extension (resolves the `[object Module] could not be cloned.` error).
+
 ## 4.2.3
 
 ### Patch Changes
