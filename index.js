@@ -1,5 +1,6 @@
-import * as astroPlugin from 'prettier-plugin-astro';
-import * as tailwindPlugin from 'prettier-plugin-tailwindcss';
+import { createRequire } from 'node:module';
+
+const require = createRequire(import.meta.url);
 
 /** @type {import("prettier").Options} */
 export default {
@@ -30,7 +31,13 @@ export default {
   printWidth: 100,
   singleQuote: true,
 
-  plugins: [astroPlugin, tailwindPlugin],
+  // Use require.resolve() to get absolute paths (strings) instead of importing plugin modules
+  // directly. This makes the config serializable for the VSCode Prettier extension's worker thread,
+  // while also ensuring plugins resolve correctly with non-hoisting package managers like pnpm.
+  plugins: [
+    require.resolve('prettier-plugin-astro'),
+    require.resolve('prettier-plugin-tailwindcss'),
+  ],
   tailwindAttributes: ['class', 'className', '.*[cC]lassName'],
   tailwindFunctions: ['clsx', 'cn'],
 
