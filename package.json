@@ -54,7 +54,7 @@
     "@changesets/cli": "2.29.8",
     "@wkovacs64/eslint-config": "7.13.0",
     "cross-env": "10.1.0",
-    "eslint": "9.39.2",
+    "eslint": "9.39.3",
     "prettier": "3.8.1"
   }
 }
