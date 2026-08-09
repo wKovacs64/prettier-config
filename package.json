@@ -1,60 +1,63 @@
 {
-  "name": "@wkovacs64/prettier-config",
-  "version": "4.2.4",
-  "description": "@wKovacs64 Prettier config",
-  "keywords": [
-    "prettier",
-    "prettierconfig",
-    "wkovacs64"
-  ],
-  "author": {
-    "name": "Justin Hall",
-    "email": "justin.r.hall@gmail.com"
-  },
-  "license": "MIT",
-  "type": "module",
-  "main": "index.js",
-  "exports": {
-    ".": "./index.js",
-    "./package.json": "./package.json"
-  },
-  "files": [
-    "index.js"
-  ],
-  "homepage": "https://github.com/wKovacs64/prettier-config#readme",
-  "repository": {
-    "url": "git+https://github.com/wKovacs64/prettier-config.git"
-  },
-  "bugs": {
-    "url": "https://github.com/wKovacs64/prettier-config/issues"
-  },
+  "packageManager": "pnpm@11.21.0",
   "scripts": {
     "changeset": "changeset",
     "changeset:version": "changeset version && pnpm install",
     "changeset:publish": "changeset publish",
     "format": "prettier --cache --write .",
     "format:check": "prettier --cache --check .",
-    "lint": "eslint --cache --cache-location ./node_modules/.cache/eslint ."
-  },
-  "private": false,
-  "prettier": "./index.js",
-  "publishConfig": {
-    "access": "public"
+    "lint": "oxlint",
+    "typecheck": "oxlint"
   },
   "engines": {
     "node": ">= 18"
   },
-  "packageManager": "pnpm@11.21.0",
+  "license": "MIT",
+  "private": false,
+  "repository": {
+    "url": "git+https://github.com/wKovacs64/prettier-config.git"
+  },
   "dependencies": {
     "prettier-plugin-astro": "^0.14.1",
     "prettier-plugin-tailwindcss": "^0.8.0"
   },
+  "prettier": "./index.js",
+  "name": "@wkovacs64/prettier-config",
+  "bugs": {
+    "url": "https://github.com/wKovacs64/prettier-config/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./package.json": "./package.json"
+  },
+  "description": "@wKovacs64 Prettier config",
+  "homepage": "https://github.com/wKovacs64/prettier-config#readme",
+  "version": "4.2.4",
+  "keywords": [
+    "prettier",
+    "prettierconfig",
+    "wkovacs64"
+  ],
   "devDependencies": {
-    "@changesets/changelog-github": "1.0.0",
-    "@changesets/cli": "3.0.0",
-    "@wkovacs64/eslint-config": "8.0.3",
     "cross-env": "10.1.0",
-    "eslint": "9.39.5",
-    "prettier": "3.9.6"
+    "@changesets/cli": "3.0.0",
+    "prettier": "3.9.6",
+    "oxlint-tsgolint": "7.0.2001",
+    "@wkovacs64/oxlint-config": "0.1.0",
+    "oxlint": "1.77.0",
+    "@changesets/changelog-github": "1.0.0",
+    "@wkovacs64/eslint-config": "8.0.3"
+  },
+  "main": "index.js",
+  "type": "module",
+  "files": [
+    "index.js"
+  ],
+  "author": {
+    "name": "Justin Hall",
+    "email": "justin.r.hall@gmail.com"
   }
 }
