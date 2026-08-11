@@ -1,3 +1,5 @@
 import { createConfig } from '@wkovacs64/oxlint-config';
 
-export default createConfig();
+export default createConfig({
+  ignorePatterns: ['example/**'],
+});

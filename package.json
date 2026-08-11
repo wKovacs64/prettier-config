@@ -6,8 +6,7 @@
     "changeset:publish": "changeset publish",
     "format": "prettier --cache --write .",
     "format:check": "prettier --cache --check .",
-    "lint": "oxlint",
-    "typecheck": "oxlint"
+    "lint": "oxlint"
   },
   "engines": {
     "node": ">= 18"
