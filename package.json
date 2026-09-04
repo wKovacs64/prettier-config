@@ -46,7 +46,7 @@
     "prettier": "3.9.6",
     "oxlint-tsgolint": "7.0.2001",
     "@wkovacs64/oxlint-config": "0.2.2",
-    "oxlint": "1.80.0",
+    "oxlint": "1.81.0",
     "@changesets/changelog-github": "1.0.0",
     "@wkovacs64/eslint-config": "8.0.3"
   },
