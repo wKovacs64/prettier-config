@@ -1,5 +1,11 @@
 # Change Log
 
+## 4.2.5
+
+### Patch Changes
+
+- [#153](https://github.com/wKovacs64/prettier-config/pull/153) [`840483e`](https://github.com/wKovacs64/prettier-config/commit/840483ecb56c568e7524946725988662b174b09c) Thanks [@renovate](https://github.com/apps/renovate)! - Update `prettier-plugin-astro` to v1.0.0.
+
 ## 4.2.4
 
 ### Patch Changes
