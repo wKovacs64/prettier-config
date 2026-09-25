@@ -1,5 +1,5 @@
 {
-  "packageManager": "pnpm@12.5.1",
+  "packageManager": "pnpm@12.6.0",
   "scripts": {
     "changeset": "changeset",
     "changeset:version": "changeset version && pnpm install",
